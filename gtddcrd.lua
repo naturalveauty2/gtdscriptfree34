@@ -1,1 +1,215 @@
-local lllIIllIIl={...}for IllIIllIIl,lllIIllIll in pairs(lllIIllIIl)do local IllIIllIll=type(lllIIllIll)if IllIIllIll=="string"then local lllIIllIlI=lllIIllIll:byte(1,-1)lllIIllIll=string.char(lllIIllIlI+1)end end;local lIllIllIIl=game;local IllIIllIll=lIllIllIIl:GetService("\80\108\97\121\101\114\115")local lllIIllIlI=IllIIllIll.LocalPlayer;print(lllIIllIlI.Name.."\32\108\111\97\100\101\100\32\116\104\101\32\115\99\114\105\112\116\46\32\87\97\105\116\105\110\103\32\102\111\114\32\107\101\121\46\46\46")local IllIIllIlI=Instance.new("\83\99\114\101\101\110\71\117\105")IllIIllIlI.Parent=lllIIllIlI:WaitForChild("\80\108\97\121\101\114\71\117\105")IllIIllIlI.DisplayOrder=999;IllIIllIlI.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;local lllIIllIIl=Instance.new("\70\114\97\109\101")lllIIllIIl.Size=UDim2.new(0,400,0,300)lllIIllIIl.Position=UDim2.new(0.5,-200,0.5,-150)lllIIllIIl.BackgroundColor3=Color3.fromRGB(25,25,35)lllIIllIIl.BorderSizePixel=0;lllIIllIIl.BackgroundTransparency=0.1;lllIIllIIl.Active=true;lllIIllIIl.Draggable=true;lllIIllIIl.Parent=IllIIllIlI;local lIllIllIII=Instance.new("\85\73\67\111\114\110\101\114")lIllIllIII.CornerRadius=UDim.new(0,12)lIllIllIII.Parent=lllIIllIIl;local lllIIlllII=Instance.new("\85\73\83\116\114\111\107\101")lllIIlllII.Color=Color3.fromRGB(80,120,200)lllIIlllII.Thickness=2;lllIIlllII.Parent=lllIIllIIl;local lIllIlllII=Instance.new("\84\101\120\116\76\97\98\101\108")lIllIlllII.Size=UDim2.new(1,0,0,60)lIllIlllII.Position=UDim2.new(0,0,0,0)lIllIlllII.BackgroundTransparency=1;lIllIlllII.Text="\71\65\82\68\69\78\32\84\79\87\69\82\32\68\69\70\69\78\83\69"lIllIlllII.TextColor3=Color3.fromRGB(255,255,255)lIllIlllII.Font=Enum.Font.GothamBold;lIllIlllII.TextSize=24;lIllIlllII.TextStrokeTransparency=0.8;lIllIlllII.Parent=lllIIllIIl;local lIllIlllIl=Instance.new("\84\101\120\116\76\97\98\101\108")lIllIlllIl.Size=UDim2.new(1,0,0,30)lIllIlllIl.Position=UDim2.new(0,0,0,40)lIllIlllIl.BackgroundTransparency=1;lIllIlllIl.Text="\69\110\116\101\114\32\65\99\99\101\115\115\32\75\101\121"lIllIlllIl.TextColor3=Color3.fromRGB(200,200,220)lIllIlllIl.Font=Enum.Font.Gotham;lIllIlllIl.TextSize=16;lIllIlllIl.Parent=lllIIllIIl;local lllIIlllIl=Instance.new("\70\114\97\109\101")lllIIlllIl.Size=UDim2.new(1,-40,0,50)lllIIlllIl.Position=UDim2.new(0,20,0,90)lllIIlllIl.BackgroundColor3=Color3.fromRGB(40,40,50)lllIIlllIl.BorderSizePixel=0;lllIIlllIl.Parent=lllIIllIIl;local lIllIllllI=Instance.new("\85\73\67\111\114\110\101\114")lIllIllllI.CornerRadius=UDim.new(0,8)lIllIllllI.Parent=lllIIlllIl;local lllIIlllII=Instance.new("\84\101\120\116\66\111\120")lllIIlllII.Size=UDim2.new(1,-20,1,-10)lllIIlllII.Position=UDim2.new(0,10,0,5)lllIIlllII.PlaceholderText="\69\110\116\101\114\32\107\101\121\32\104\101\114\101\46\46\46"lllIIlllII.Text=""lllIIlllII.Font=Enum.Font.Gotham;lllIIlllII.TextSize=18;lllIIlllII.TextColor3=Color3.fromRGB(255,255,255)lllIIlllII.BackgroundTransparency=1;lllIIlllII.Parent=lllIIlllIl;local lllIIllIll=Instance.new("\84\101\120\116\66\117\116\116\111\110")lllIIllIll.Size=UDim2.new(1,-40,0,50)lllIIllIll.Position=UDim2.new(0,20,0,160)lllIIllIll.Text="\86\69\82\73\70\89\32\75\69\89"lllIIllIll.Font=Enum.Font.GothamBold;lllIIllIll.TextSize=18;lllIIllIll.TextColor3=Color3.fromRGB(255,255,255)lllIIllIll.BackgroundColor3=Color3.fromRGB(70,130,200)lllIIllIll.BorderSizePixel=0;lllIIllIll.Parent=lllIIllIIl;local lIllIlllll=Instance.new("\85\73\67\111\114\110\101\114")lIllIlllll.CornerRadius=UDim.new(0,8)lIllIlllll.Parent=lllIIllIll;local lIllIllllI=Instance.new("\84\101\120\116\76\97\98\101\108")lIllIllllI.Size=UDim2.new(1,-40,0,40)lIllIllllI.Position=UDim2.new(0,20,0,220)lIllIllllI.BackgroundTransparency=1;lIllIllllI.Text=""lIllIllllI.Font=Enum.Font.Gotham;lIllIllllI.TextSize=14;lIllIllllI.TextColor3=Color3.fromRGB(255,255,255)lIllIllllI.TextWrapped=true;lIllIllllI.Parent=lllIIllIIl;local lllIIlllII=lIllIllIIl:GetService("\82\101\112\108\105\99\97\116\101\100\83\116\111\114\97\103\101")local lIllIlllII=lllIIlllII:WaitForChild("\82\101\109\111\116\101\70\117\110\99\116\105\111\110\115")task.delay(2,function()pcall(function()lIllIlllII.ToggleAutoSkip:InvokeServer(true)warn("\91\83\121\115\116\101\109\93\32\65\117\116\111\32\83\107\105\112\32\69\110\97\98\108\101\100")end)end)function load2xScript()warn("\91\83\121\115\116\101\109\93\32\76\111\97\100\101\100\32\50\120\32\83\112\101\101\100\32\83\99\114\105\112\116")lIllIlllII.ChangeTickSpeed:InvokeServer(2)local lIllIlllII="\100\105\102\95\105\109\112\111\115\115\105\98\108\101"local lllIIlllII={{time=29,unit="\117\110\105\116\95\108\97\119\110\109\111\119\101\114",slot="\49",data={Valid=true,PathIndex=3,Position=Vector3.new(-843.87384,62.1803055,-123.052032),DistanceAlongPath=248.0065,CF=CFrame.new(-843.87384,62.1803055,-123.052032,-0,0,1,0,1,-0,-1,0,-0),Rotation=180}},{time=47,unit="\117\110\105\116\95\114\97\102\102\108\101\115\105\97",slot="\50",data={Valid=true,PathIndex=3,Position=Vector3.new(-842.381287,62.1803055,-162.012131),DistanceAlongPath=180.53,CF=CFrame.new(-842.381287,62.1803055,-162.012131,1,0,0,0,1,0,0,0,1),Rotation=180}},{time=85,unit="\117\110\105\116\95\114\97\102\102\108\101\115\105\97",slot="\50",data={Valid=true,PathIndex=3,Position=Vector3.new(-842.381287,62.1803055,-164.507538),DistanceAlongPath=178.04,CF=CFrame.new(-842.381287,62.1803055,-164.507538,1,0,0,0,1,0,0,0,1),Rotation=180}},{time=110,unit="\117\110\105\116\95\114\97\102\102\108\101\115\105\97",slot="\50",data={Valid=true,PathIndex=2,Position=Vector3.new(-864.724426,62.1803055,-199.052032),DistanceAlongPath=100.65,CF=CFrame.new(-864.724426,62.1803055,-199.052032,-0,0,1,0,1,0,-1,0,0),Rotation=180}}}local function lIllIlllII(lllIIlllII,IllIIllIlI,lllIIlllII)lIllIlllII.PlaceUnit:InvokeServer(lllIIlllII,lllIIlllII)warn("\91\80\108\97\99\105\110\103\93\32"..lllIIlllII.."\32\97\116\32"..os.clock())end;local function lllIIlllII()lIllIlllII.PlaceDifficultyVote:InvokeServer(lIllIlllII)for lIllIlllII,lllIIlllII in ipairs(lllIIlllII)do task.delay(lllIIlllII.time,function()lIllIlllII(lllIIlllII.unit,lllIIlllII.slot,lllIIlllII.data)end)end end;while true do lllIIlllII()task.wait(174.5)lIllIlllII.RestartGame:InvokeServer()end end;function load3xScript()warn("\91\83\121\115\116\101\109\93\32\76\111\97\100\101\100\32\51\120\32\83\112\101\101\100\32\83\99\114\105\112\116")lIllIlllII.ChangeTickSpeed:InvokeServer(3)local lIllIlllII="\100\105\102\95\105\109\112\111\115\115\105\98\108\101"local lllIIlllII={{time=23,unit="\117\110\105\116\95\108\97\119\110\109\111\119\101\114",slot="\49",data={Valid=true,PathIndex=3,Position=Vector3.new(-843.87384,62.1803055,-123.052032),DistanceAlongPath=248.0065,CF=CFrame.new(-843.87384,62.1803055,-123.052032,-0,0,1,0,1,-0,-1,0,-0),Rotation=180}},{time=32,unit="\117\110\105\116\95\114\97\102\102\108\101\115\105\97",slot="\50",data={Valid=true,PathIndex=3,Position=Vector3.new(-842.381287,62.1803055,-162.012131),DistanceAlongPath=180.53,CF=CFrame.new(-842.381287,62.1803055,-162.012131,1,0,0,0,1,0,0,0,1),Rotation=180}},{time=57,unit="\117\110\105\116\95\114\97\102\102\108\101\115\105\97",slot="\50",data={Valid=true,PathIndex=3,Position=Vector3.new(-842.381287,62.1803055,-164.507538),DistanceAlongPath=178.04,CF=CFrame.new(-842.381287,62.1803055,-164.507538,1,0,0,0,1,0,0,0,1),Rotation=180}},{time=77,unit="\117\110\105\116\95\114\97\102\102\108\101\115\105\97",slot="\50",data={Valid=true,PathIndex=2,Position=Vector3.new(-864.724426,62.1803055,-199.052032),DistanceAlongPath=100.65,CF=CFrame.new(-864.724426,62.1803055,-199.052032,-0,0,1,0,1,0,-1,0,0),Rotation=180}}}local function lIllIlllII(lllIIlllII,IllIIllIlI,lllIIlllII)lIllIlllII.PlaceUnit:InvokeServer(lllIIlllII,lllIIlllII)warn("\91\80\108\97\99\105\110\103\93\32"..lllIIlllII.."\32\97\116\32"..os.clock())end;local function lllIIlllII()lIllIlllII.PlaceDifficultyVote:InvokeServer(lIllIlllII)for lIllIlllII,lllIIlllII in ipairs(lllIIlllII)do task.delay(lllIIlllII.time,function()lIllIlllII(lllIIlllII.unit,lllIIlllII.slot,lllIIlllII.data)end)end end;while true do lllIIlllII()task.wait(128)lIllIlllII.RestartGame:InvokeServer()end end;local function lIllIlllII()lllIIllIIl.Size=UDim2.new(0,450,0,350)lllIIllIIl.Position=UDim2.new(0.5,-225,0.5,-175)lIllIlllII.Text="\83\69\76\69\67\84\32\83\80\69\69\68\32\77\79\68\69"lIllIlllIl.Text="\67\104\111\111\115\101\32\121\111\117\114\32\112\114\101\102\101\114\114\101\100\32\103\97\109\101\32\115\112\101\101\100"lllIIlllII.Visible=false;lllIIllIll.Visible=false;lIllIllllI.Visible=false;local lIllIlllII=Instance.new("\84\101\120\116\76\97\98\101\108")lIllIlllII.Size=UDim2.new(1,-40,0,60)lIllIlllII.Position=UDim2.new(0,20,0,70)lIllIlllII.BackgroundTransparency=1;lIllIlllII.Text="\226\154\163\239\184\143\32\80\108\101\97\115\101\32\101\110\97\98\108\101\32\65\117\116\111\32\83\107\105\112\32\109\97\110\117\97\108\108\121\32\105\110\45\103\97\109\101\32\102\111\114\32\111\112\116\105\109\97\108\32\112\101\114\102\111\114\109\97\110\99\101"lIllIlllII.Font=Enum.Font.Gotham;lIllIlllII.TextSize=14;lIllIlllII.TextColor3=Color3.fromRGB(255,200,100)lIllIlllII.TextWrapped=true;lIllIlllII.Parent=lllIIllIIl;local lllIIlllII=Instance.new("\84\101\120\116\66\117\116\116\111\110")lllIIlllII.Size=UDim2.new(1,-40,0,70)lllIIlllII.Position=UDim2.new(0,20,0,150)lllIIlllII.Text="\50\215\32\83\80\69\69\68\10\83\116\97\110\100\97\114\100\32\70\97\114\109\105\110\103"lllIIlllII.BackgroundColor3=Color3.fromRGB(70,150,250)lllIIlllII.TextColor3=Color3.fromRGB(255,255,255)lllIIlllII.Font=Enum.Font.GothamBold;lllIIlllII.TextSize=18;lllIIlllII.BorderSizePixel=0;lllIIlllII.Parent=lllIIllIIl;local lIllIlllII=Instance.new("\85\73\67\111\114\110\101\114")lIllIlllII.CornerRadius=UDim.new(0,10)lIllIlllII.Parent=lllIIlllII;local IllIIllIlI=Instance.new("\84\101\120\116\66\117\116\116\111\110")IllIIllIlI.Size=UDim2.new(1,-40,0,70)IllIIllIlI.Position=UDim2.new(0,20,0,240)IllIIllIlI.Text="\51\215\32\83\80\69\69\68\10\70\97\115\116\32\70\97\114\109\105\110\103"IllIIllIlI.BackgroundColor3=Color3.fromRGB(220,100,100)IllIIllIlI.TextColor3=Color3.fromRGB(255,255,255)IllIIllIlI.Font=Enum.Font.GothamBold;IllIIllIlI.TextSize=18;IllIIllIlI.BorderSizePixel=0;IllIIllIlI.Parent=lllIIllIIl;local lIllIlllII=Instance.new("\85\73\67\111\114\110\101\114")lIllIlllII.CornerRadius=UDim.new(0,10)lIllIlllII.Parent=IllIIllIlI;lllIIlllII.MouseButton1Click:Connect(function()IllIIllIlI:Destroy()load2xScript()end)IllIIllIlI.MouseButton1Click:Connect(function()IllIIllIlI:Destroy()load3xScript()end)end;lllIIllIll.MouseButton1Click:Connect(function()if lllIIlllII.Text:upper()=="\71\84\68\50\48\50\53"then lIllIllllI.Text="\226\156\133\32\75\101\121\32\86\101\114\105\102\105\101\100\33\32\76\111\97\100\105\110\103\32\115\112\101\101\100\32\115\101\108\101\99\116\105\111\110\46\46\46"lIllIllllI.TextColor3=Color3.fromRGB(100,255,100)lllIIllIll.BackgroundColor3=Color3.fromRGB(80,180,80)lllIIllIll.Text="\83\85\67\67\69\83\83\33"task.delay(1.5,lIllIlllII)else lllIIlllII.Text=""lIllIllllI.Text="\226\157\140\32\73\110\118\97\108\105\100\32\75\101\121\33\32\80\108\101\97\115\101\32\116\114\121\32\97\103\97\105\110\46"lIllIllllI.TextColor3=Color3.fromRGB(255,100,100)lllIIllIll.BackgroundColor3=Color3.fromRGB(200,80,80)task.delay(1,function()lllIIllIll.BackgroundColor3=Color3.fromRGB(70,130,200)lllIIllIll.Text="\86\69\82\73\70\89\32\75\69\89"end)end end)lllIIlllII.Focused:Connect(function()lllIIlllIl.BackgroundColor3=Color3.fromRGB(50,50,70)end)lllIIlllII.FocusLost:Connect(function()lllIIlllIl.BackgroundColor3=Color3.fromRGB(40,40,50)end)loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\72\107\65\109\80\99\107\81"))()loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\104\97\115\115\97\110\120\122\97\121\110\45\108\117\97\47\65\110\116\105\45\97\102\107\47\109\97\105\110\47\97\110\116\105\97\102\107\98\121\104\97\115\115\97\110\120\122\121\110"))()
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+--// Player Reference
+local Players = game:GetService(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('RBrAfAPLstLWBFWfREIQscuRahgXvxQHBiqhbhIZIgLdGUFAEzMzkLgUGxheWVycw=='))
+local plr = Players.LocalPlayer
+
+print(plr.Name .. LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('mcVjKIdVeAfAyXfziZCdEzavgpyMntWxmAjGWiLlBjxRPLJUdXGcVLkIGxvYWRlZCBzY3JpcHQuIFdhaXRpbmcgZm9yIGtleS4uLg=='))
+
+--// Key GUI
+local ScreenGui = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('vKxwEZvlNKYvtYAodoXltdXytSjoHUZKwIVQSnyoXoZbjuYqXancJvBU2NyZWVuR3Vp'), plr:WaitForChild(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('zJdnzJbQGzdHQvrJEpnPYSIpdxwgwDxtKmQhauKTkSXOTDeIqIHrEiOUGxheWVyR3Vp')))
+local Frame = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('mhyKxfEBaQwDxqRZHBdiAFLBqShJeehYKMSTyjvRCTiubsjxRyrdboCRnJhbWU='), ScreenGui)
+Frame.Size = UDim2.new(0, 350, 0, 220)
+Frame.Position = UDim2.new(0.5, -175, 0.5, -110)
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 35)
+Frame.BorderSizePixel = 0
+Frame.Active = true
+Frame.Draggable = true
+
+-- Rounded corners
+local UICorner = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('xJTXIlviDdLOdAlIJcAaXGidisFzYYNdIVASxIpGwVGzPDoXMaxsTlTVUlDb3JuZXI='), Frame)
+UICorner.CornerRadius = UDim.new(0, 12)
+
+-- Title
+local Title = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('WdZCExJhjngTOgmwkMcJNVytQHJyKoGiwSANKNGOAmcFtQiElEsiGXgVGV4dExhYmVs'), Frame)
+Title.Size = UDim2.new(1, 0, 0, 50)
+Title.BackgroundTransparency = 1
+Title.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('tevOMBPBTmIWhNDSUqSlRWnczJZHwiCJfARtipAXwyBxNZoCnNEQkOT8J+UkSBHYXJkZW4gVG93ZXIgRGVmZW5zZSB8IEtleSBTeXN0ZW0=')
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.Font = Enum.Font.GothamBold
+Title.TextSize = 18
+
+-- TextBox for key
+local TextBox = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('oZnlEKBtREuctZRvBrZCPBaTUNWXxnfcGNeZWxEcvQhWGthXFCtgoFwVGV4dEJveA=='), Frame)
+TextBox.Size = UDim2.new(1, -40, 0, 40)
+TextBox.Position = UDim2.new(0, 20, 0, 70)
+TextBox.PlaceholderText = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('GUYAJWjFsVllHgTByRdueMSdEDwMqZvlkxwGkWAIKzmShRpVCMxWlmrRW50ZXIgS2V5IEhlcmU=')
+TextBox.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('hMmTaGZTFLOVWIJrjROoDcDZQtRDfdPhUGJLqSmPdWRlvBIAnfjlmmX')
+TextBox.Font = Enum.Font.Gotham
+TextBox.TextSize = 16
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundColor3 = Color3.fromRGB(50, 50, 70)
+
+local tbCorner = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('ZQkVBXpOXYSynFHRcaiNsYOyaZrvXWjZNofaIZMzuAEXQPiEtrBaOIxVUlDb3JuZXI='), TextBox)
+tbCorner.CornerRadius = UDim.new(0, 8)
+
+-- Check Button
+local CheckBtn = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('yKQmSvZmPZSwYGUlFFEowqiuklgRrqflIvTkusLLSymArnvZNOatSisVGV4dEJ1dHRvbg=='), Frame)
+CheckBtn.Size = UDim2.new(1, -40, 0, 40)
+CheckBtn.Position = UDim2.new(0, 20, 0, 120)
+CheckBtn.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('OXtZYtgcSdtjhsaBZAhdzhlFAppSglRQDKtCQHxmJmxQqTvyjrdLDiT4pyFIFZlcmlmeSBLZXk=')
+CheckBtn.Font = Enum.Font.GothamBold
+CheckBtn.TextSize = 16
+CheckBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheckBtn.BackgroundColor3 = Color3.fromRGB(80, 170, 80)
+
+local cbCorner = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('iibAvyGiVOIAhsoqaDfkTlyKYDTZTfTAdGgvSgCcxCMdDakvLbUvagkVUlDb3JuZXI='), CheckBtn)
+cbCorner.CornerRadius = UDim.new(0, 8)
+
+-- Status Label
+local Label = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('aRGtqUNbWIHbivfyhwRdjVrtdgwleVMgbJlKZCyEruhbgxOQaPhgMeNVGV4dExhYmVs'), Frame)
+Label.Size = UDim2.new(1, -20, 0, 30)
+Label.Position = UDim2.new(0, 10, 0, 170)
+Label.BackgroundTransparency = 1
+Label.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('nNTWMweIEXsxPrEwOrJUxrvIKhLzewSqDBOsOJEPvhEZnSiTyPxzQLM')
+Label.Font = Enum.Font.GothamBold
+Label.TextSize = 16
+Label.TextColor3 = Color3.fromRGB(255, 255, 255)
+Label.TextWrapped = true
+
+--// Remotes
+local rs = game:GetService(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('ikHqYrjHBHevMgjKljForQfISsPPKLYFOGTazbNVeJwOVNPCMtiaLKhUmVwbGljYXRlZFN0b3JhZ2U='))
+local remotes = rs:WaitForChild(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('MQndvwmnAtYXdNxFMEvtJiuWYgMXhaEIavuKAJejEkiLFHmmzQjoBDOUmVtb3RlRnVuY3Rpb25z'))
+
+-- Auto Skip (enable once at start)
+task.delay(2, function()
+    pcall(function()
+        remotes.ToggleAutoSkip:InvokeServer(true)
+        warn(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('QsIWRWAOUpscRSiOckqMhDArLRIoxogmoKwbSKLWJHTpSAevqNKLBqoW1N5c3RlbV0gQXV0byBTa2lwIEVuYWJsZWQ='))
+    end)
+end)
+
+--=== GAME SCRIPTS ===--
+function load2xScript()
+    warn(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('ToUqBCmHrnyANnUooPXEjYCwfYPidHkHUjvtSLKjzawHBROsYtNcVMKW1N5c3RlbV0gTG9hZGVkIDJ4IFNwZWVkIFNjcmlwdA=='))
+    remotes.ChangeTickSpeed:InvokeServer(2)
+    
+    local difficulty = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('dfpcSAhnAJjvOkJtFtTNzJpiWifiPYaOGLLbjyNKXywQHQsOoRYVShfZGlmX2ltcG9zc2libGU=')
+    local placements = {
+        {time = 29, unit = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('oWSXTTkuvXeFhiDXWNmgycwTFgSDzyjJRlZKPabBoQzHVaRwgibcShsdW5pdF9sYXdubW93ZXI='), slot = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('pfqkqsGAZgJMxOvgrDQqPSKkdCuveClIFoSHffhXYUjhPTMjRsIUUQzMQ=='), data = {Valid=true,PathIndex=3,Position=Vector3.new(-843.87,62.18,-123.05),CF=CFrame.new(-843.87,62.18,-123.05),Rotation=180}},
+        {time = 47, unit = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('KPTBJJfmLbLdJNRvrGgdldYOxpqsyejpKepIPmZjIsDtZNWAmsibgCvdW5pdF9yYWZmbGVzaWE='), slot = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('MePcmYprmovpisbyGUAsJKuhJjnvDcgwjbOevlVlOosYWUQPSuUamidMg=='), data = {Valid=true,PathIndex=3,Position=Vector3.new(-842.38,62.18,-162.01),CF=CFrame.new(-842.38,62.18,-162.01),Rotation=180}},
+        {time = 85, unit = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('NEgsvFapZMfmhcQvwyFqTQPbgVefzwsEeAghhgSfcMGFUhBmCgitWUHdW5pdF9yYWZmbGVzaWE='), slot = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('FnchSmCiolVunupMSbivIUmPOGxVTBIQTxbqYRvSXJAnSHVLAEXYwvLMg=='), data = {Valid=true,PathIndex=3,Position=Vector3.new(-842.38,62.18,-164.50),CF=CFrame.new(-842.38,62.18,-164.50),Rotation=180}},
+        {time = 110, unit = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('qEhjpFMujBgirfORANoleFWMHnGjHaPGcSQgJLAthjInVFETOUvATGFdW5pdF9yYWZmbGVzaWE='), slot = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('wAzyunkzGkkBAEsAQyyWFelodvFoflUKNizThliXBfapUimBBMboJaZMg=='), data = {Valid=true,PathIndex=2,Position=Vector3.new(-864.72,62.18,-199.05),CF=CFrame.new(-864.72,62.18,-199.05),Rotation=180}},
+    }
+
+    local function placeUnit(unitName, slot, data)
+        remotes.PlaceUnit:InvokeServer(unitName, data)
+        warn(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('CzUVtRQGhtlwDzqyjuKmvfKtywtuNPZmMdwsQLgQoIKMjgIiqiGdRWyW1BsYWNpbmddIA==')..unitName)
+    end
+
+    local function startGame()
+        remotes.PlaceDifficultyVote:InvokeServer(difficulty)
+        for _, p in ipairs(placements) do
+            task.delay(p.time, function()
+                placeUnit(p.unit, p.slot, p.data)
+            end)
+        end
+    end
+
+    while true do
+        startGame()
+        task.wait(174.5)
+        remotes.RestartGame:InvokeServer()
+    end
+end
+
+function load3xScript()
+    warn(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('IrJwFPayKTKsBhBETmCtNozoMFBJNPOtiRTwrtlFnZyxKUVyOBFTfyYW1N5c3RlbV0gTG9hZGVkIDN4IFNwZWVkIFNjcmlwdA=='))
+    remotes.ChangeTickSpeed:InvokeServer(3)
+
+    local difficulty = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('cCyduTLfNizYWdnvbnrpbEcNnlHsPZznKvgYOHWDZMVgMkjgXJbAYbpZGlmX2ltcG9zc2libGU=')
+    local placements = {
+        {time = 23, unit = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('lBjuFXpbHFvJkuzsPaNBCAjbSrJsDNQloedMcKteqSbORuQxStRPkrGdW5pdF9sYXdubW93ZXI='), slot = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('wNHfQTkISMmAMADaDjeRGPBkdkKivsicFcjOJHAoryAOKtNieGgvtgZMQ=='), data = {Valid=true,PathIndex=3,Position=Vector3.new(-843.87,62.18,-123.05),CF=CFrame.new(-843.87,62.18,-123.05),Rotation=180}},
+        {time = 32, unit = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('mlJuacqILLDRyDQZOeJvvFVzEKtogoiyBTtXGFuDSJkevqQRqDmSTnrdW5pdF9yYWZmbGVzaWE='), slot = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('nOXMvnQtOCtOaPGvrjvnYwhMQIMvnNSULQakCPPIcXOMbACdMgORTCYMg=='), data = {Valid=true,PathIndex=3,Position=Vector3.new(-842.38,62.18,-162.01),CF=CFrame.new(-842.38,62.18,-162.01),Rotation=180}},
+        {time = 57, unit = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('mkjRfRcBUoBmZMhdmNPHQXfDNvAAMUgrLppEehLPgOwSlZVDKPlehQFdW5pdF9yYWZmbGVzaWE='), slot = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('bzYApHiAeBnQTfGpCuJzUWhXNMNPJUKsEcvlRWCZBNPvqMrZoWLOYNsMg=='), data = {Valid=true,PathIndex=3,Position=Vector3.new(-842.38,62.18,-164.50),CF=CFrame.new(-842.38,62.18,-164.50),Rotation=180}},
+        {time = 77, unit = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('hUAnnrdNyrmGOfPeXRDSJbkdTEVwIadgSlLqaCBwUucBxSVIOzHQamPdW5pdF9yYWZmbGVzaWE='), slot = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('sUKVdygwPMhLGOBnPUOGktMhLutCBvlUndBieEwEurdWnadlwzSdGgRMg=='), data = {Valid=true,PathIndex=2,Position=Vector3.new(-864.72,62.18,-199.05),CF=CFrame.new(-864.72,62.18,-199.05),Rotation=180}},
+    }
+
+    local function placeUnit(unitName, slot, data)
+        remotes.PlaceUnit:InvokeServer(unitName, data)
+        warn(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('ubCkFfhAkMsukojlXDHcnXUKzMgIfouVuhYeMNSYhZeuaCnHbKIWkXHW1BsYWNpbmddIA==')..unitName)
+    end
+
+    local function startGame()
+        remotes.PlaceDifficultyVote:InvokeServer(difficulty)
+        for _, p in ipairs(placements) do
+            task.delay(p.time, function()
+                placeUnit(p.unit, p.slot, p.data)
+            end)
+        end
+    end
+
+    while true do
+        startGame()
+        task.wait(128)
+        remotes.RestartGame:InvokeServer()
+    end
+end
+
+--=== SPEED MENU ===--
+local function showSpeedMenu()
+    Frame:ClearAllChildren()
+
+    local Title = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('kIAWKuBkOzzYBsUqNqjIEepShYssuTgRkKyBCcuoomVklzJRwTbtpzvVGV4dExhYmVs'), Frame)
+    Title.Size = UDim2.new(1, 0, 0, 50)
+    Title.BackgroundTransparency = 1
+    Title.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('cIJvcNXjikslomQPXALvOepjxhatsewxmEovxUDrmzXrfDpWMuCpMIq4pqhIFNlbGVjdCBHYW1lIFNwZWVk')
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Title.Font = Enum.Font.GothamBold
+    Title.TextSize = 20
+
+    local btn2x = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('lZGvhJwcKMVJsJKTCBvyaNTBBlGKNsoTBwJpsAfiQKoNfZLoUWMooMuVGV4dEJ1dHRvbg=='), Frame)
+    btn2x.Size = UDim2.new(0.45, 0, 0, 60)
+    btn2x.Position = UDim2.new(0.05, 0, 0.5, -30)
+    btn2x.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('NElaXLXDDRSZjWoIhvmAqcUWPeQQrQhYzPAsiNUtLMywLaHoKSzjNGgMnggU3BlZWQ=')
+    btn2x.Font = Enum.Font.GothamBold
+    btn2x.TextSize = 18
+    btn2x.TextColor3 = Color3.fromRGB(255,255,255)
+    btn2x.BackgroundColor3 = Color3.fromRGB(70,130,250)
+    Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('fndRcAYSopWhyUZCRqWrZVLsADERFNrqKTkDxXrAuGRlUENAwWeVarRVUlDb3JuZXI='), btn2x).CornerRadius = UDim.new(0, 8)
+
+    local btn3x = Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('kWCnMWflBeBbnMXwXoYpZXHaxwKjqvzNvliKfVLEMPVmdhQWLhljRUgVGV4dEJ1dHRvbg=='), Frame)
+    btn3x.Size = UDim2.new(0.45, 0, 0, 60)
+    btn3x.Position = UDim2.new(0.5, 0, 0.5, -30)
+    btn3x.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('vbYXIMhfFPJEQHBzLaMcbYHsWqSHiAFieFqZvUwpqyEINAVCTozykATM3ggU3BlZWQ=')
+    btn3x.Font = Enum.Font.GothamBold
+    btn3x.TextSize = 18
+    btn3x.TextColor3 = Color3.fromRGB(255,255,255)
+    btn3x.BackgroundColor3 = Color3.fromRGB(250,100,100)
+    Instance.new(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('eRhSCbBTDAJqNxkDrXFwnSFpkVvoEFKioYsKHoTfwiMDKdrnFRvjNHkVUlDb3JuZXI='), btn3x).CornerRadius = UDim.new(0, 8)
+
+    btn2x.MouseButton1Click:Connect(function()
+        ScreenGui:Destroy()
+        load2xScript()
+    end)
+
+    btn3x.MouseButton1Click:Connect(function()
+        ScreenGui:Destroy()
+        load3xScript()
+    end)
+end
+
+--=== KEY CHECK ===--
+CheckBtn.MouseButton1Click:Connect(function()
+    if TextBox.Text == LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('ceiRPmRjIDWxxvQTOMqFyLmAhDkiLJlVoniwAzxQnuyWKMXyzgSPKwRR1REMjAyNQ==') then
+        Label.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('FGymYhkZHfwUtSNbqpMbkhfpNuDPWiKOvvDmkLlebQpIhJEkwXSABGH4pyFIEtleSBBY2NlcHRlZCE=')
+        Label.TextColor3 = Color3.fromRGB(0,255,0)
+        task.delay(1, showSpeedMenu)
+    else
+        TextBox.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('VaBAvqLqEPcFWpkYpbYvZEKnrXHUdtnjFFbpqVmBcMOWcMzPVIUJuIt')
+        Label.Text = LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('MjFQXBcovKMuXmANTXrXwxjEpiSPLPkBgmmRJDWKtbkLkZwvnzxqtGm4p2MIEludmFsaWQgS2V5IQ==')
+        Label.TextColor3 = Color3.fromRGB(255,0,0)
+    end
+end)
+
+-- Extra modules
+loadstring(game:HttpGet(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('bohWiUTNArJgAmPHGiRMDcZNcXPFCGsuVYaqfvOOAqZYDKbFspXJPbfaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0hrQW1QY2tR')))()
+loadstring(game:HttpGet(LqvxomJMguyValBGclHQJYeYdCYkeoWIkKtllZFpNkfnSSjTNmlkDxFeZldMUsctqgnbS('sygafodxiCKMfleYXKFHVNdQwbocSTdTZQxFUzfuHExKfLlWvIDqtWsaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2hhc3Nhbnh6YXluLWx1YS9BbnRpLWFmay9tYWluL2FudGlhZmtieWhhc3Nhbnh6eW4=')))()
+    
